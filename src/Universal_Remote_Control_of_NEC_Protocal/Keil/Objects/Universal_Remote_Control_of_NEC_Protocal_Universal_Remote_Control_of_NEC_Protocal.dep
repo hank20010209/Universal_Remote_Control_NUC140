@@ -1,0 +1,372 @@
+Dependencies for Project 'Universal_Remote_Control_of_NEC_Protocal', Target 'Universal_Remote_Control_of_NEC_Protocal': (DO NOT MODIFY !)
+F (.\Library\Device\Nuvoton\NUC100Series\Source\ARM\startup_NUC100Series.s)(0x5A1E2A42)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"--list .\listings\startup_nuc100series.lst --xref -o .\objects\startup_nuc100series.o --depend .\objects\startup_nuc100series.d)
+F (.\Library\Device\Nuvoton\NUC100Series\Source\system_NUC100Series.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\system_nuc100series.o --omf_browse .\objects\system_nuc100series.crf --depend .\objects\system_nuc100series.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\clk.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\gpio.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\pwm.c)(0x6395ACB2)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\spi.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\sys.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\timer.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\StdDriver\src\uart.c)(0x5A1E2A42)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+F (.\Library\Nu-LB-NUC140\Source\Draw2D.c)(0x569DB0B8)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\draw2d.o --omf_browse .\objects\draw2d.crf --depend .\objects\draw2d.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+I (.\Library\Nu-LB-NUC140\Include\LCD.h)(0x6355B76C)
+F (.\Library\Nu-LB-NUC140\Source\IrDA_NEC.c)(0x63A6C958)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\irda_nec.o --omf_browse .\objects\irda_nec.crf --depend .\objects\irda_nec.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+I (.\Library\Nu-LB-NUC140\Include\SYS_init.h)(0x5AD5A3CF)
+I (.\Library\Nu-LB-NUC140\Include\IrDA_NEC.h)(0x5809F462)
+F (.\Library\Nu-LB-NUC140\Source\LCD.c)(0x63A6D7F4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+I (.\Library\Nu-LB-NUC140\Include\LCD.h)(0x6355B76C)
+I (.\Library\Nu-LB-NUC140\Include\Font5x7.h)(0x51AB52BC)
+I (.\Library\Nu-LB-NUC140\Include\Font8x16.h)(0x53196B5B)
+F (.\Library\Nu-LB-NUC140\Source\SYS_init.c)(0x638883A9)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\sys_init.o --omf_browse .\objects\sys_init.crf --depend .\objects\sys_init.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+I (..\MCU_init.h)(0x63A6C602)
+I (.\Library\Nu-LB-NUC140\Include\SYS_init.h)(0x5AD5A3CF)
+F (.\main.c)(0x63A71986)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .\Library\CMSIS\Include -I .\Library\Device\Nuvoton\NUC100Series\Include -I .\Library\Nu-LB-NUC140\Include -I .\Library\StdDriver\inc -I .\Library -I ..\Keil -I ..\-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\NUC100Series.h)(0x638D0912)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x5A1E2A42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x5A1E2A42)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x5A1E2A42)
+I (.\Library\Device\Nuvoton\NUC100Series\Include\system_NUC100Series.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SYS.h)(0x5AB9DF99)
+I (.\Library\StdDriver\inc\ADC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\FMC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\GPIO.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2C.h)(0x5EAD6D62)
+I (.\Library\StdDriver\inc\PWM.h)(0x5EC3B101)
+I (.\Library\StdDriver\inc\SPI.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CRC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\TIMER.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\WWDT.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\RTC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\UART.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\I2S.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\USBD.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PDMA.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\SC.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\PS2.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\CLK.h)(0x5A1E2A42)
+I (.\Library\StdDriver\inc\ACMP.h)(0x5A1E2A42)
+I (..\MCU_init.h)(0x63A6C602)
+I (.\Library\Nu-LB-NUC140\Include\SYS_init.h)(0x5AD5A3CF)

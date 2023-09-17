@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jyun-Wei Chen, FCU, LIC=03C6R-K664M-TGD7T-R6ESD-RG79K-AM7B6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      Nu_Link.dll V3.02
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+D:\Code\college-workspace\2022-1\Micro-Control-Unit\Universal_Remote_Control_of_NEC_Protocal\Keil\Universal_Remote_Control_of_NEC_Protocal.uvproj
+Project File Date:  12/24/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Universal_Remote_Control_of_NEC_Protocal'
+assembling startup_NUC100Series.s...
+creating preprocessor file for system_NUC100Series.c...
+creating preprocessor file for clk.c...
+creating preprocessor file for gpio.c...
+compiling system_NUC100Series.c...
+creating preprocessor file for pwm.c...
+creating preprocessor file for spi.c...
+compiling clk.c...
+compiling gpio.c...
+creating preprocessor file for sys.c...
+creating preprocessor file for timer.c...
+compiling pwm.c...
+creating preprocessor file for uart.c...
+compiling spi.c...
+compiling sys.c...
+creating preprocessor file for Draw2D.c...
+compiling timer.c...
+creating preprocessor file for IrDA_NEC.c...
+creating preprocessor file for LCD.c...
+compiling uart.c...
+compiling Draw2D.c...
+creating preprocessor file for SYS_init.c...
+compiling IrDA_NEC.c...
+creating preprocessor file for main.c...
+compiling SYS_init.c...
+compiling LCD.c...
+compiling main.c...
+main.c(383): warning:  #223-D: function "printC" declared implicitly
+          printC(CURSOR_COLUMN_INDEX * 8, CURSOR_ROW_INDEX * 16, (CURSOR_STATE = !CURSOR_STATE) ? '>' : ' ');
+main.c(383): warning:  #1293-D: assignment in condition
+          printC(CURSOR_COLUMN_INDEX * 8, CURSOR_ROW_INDEX * 16, (CURSOR_STATE = !CURSOR_STATE) ? '>' : ' ');
+main.c(391): warning:  #223-D: function "printC" declared implicitly
+          printC(CURSOR_COLUMN_INDEX * 8, CURSOR_ROW_INDEX * 16, ' ');
+main.c(401): warning:  #223-D: function "printInverseC" declared implicitly
+              printInverseC(CURSOR_COLUMN_INDEX * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][CURSOR_COLUMN_INDEX]);
+main.c(405): warning:  #223-D: function "printInverseC" declared implicitly
+              printInverseC(11 * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][11]);
+main.c(411): warning:  #223-D: function "printInverseC" declared implicitly
+              printInverseC(14 * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][14]);
+main.c(422): warning:  #223-D: function "printC" declared implicitly
+              printC(CURSOR_COLUMN_INDEX * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][CURSOR_COLUMN_INDEX]);
+main.c(426): warning:  #223-D: function "printC" declared implicitly
+              printC(11 * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][11]);
+main.c(432): warning:  #223-D: function "printC" declared implicitly
+              printC(14 * 8, CURSOR_ROW_INDEX * 16, name_page[CURSOR_ROW_INDEX][14]);
+main.c(448): warning:  #223-D: function "IrDA_NEC_TxRx_Init" declared implicitly
+      IrDA_NEC_TxRx_Init();
+main.c(452): warning:  #223-D: function "init_LCD" declared implicitly
+      init_LCD();
+main.c(453): warning:  #223-D: function "clear_LCD" declared implicitly
+      clear_LCD();
+main.c(454): warning:  #223-D: function "print_Line" declared implicitly
+      print_Line(0, main_page[0]);
+main.c(602): warning:  #223-D: function "printC" declared implicitly
+                              printC(NAME_INDEX * 8, 16, ('A' + CURSOR_COLUMN_INDEX));
+main.c(611): warning:  #223-D: function "printC" declared implicitly
+                                  printC(NAME_INDEX * 8, 16, ('Q' + CURSOR_COLUMN_INDEX));
+main.c(618): warning:  #223-D: function "printC" declared implicitly
+                                  printC(NAME_INDEX * 8, 16, '-');
+main.c(626): warning:  #223-D: function "printC" declared implicitly
+                                  printC(NAME_INDEX * 8, 16, ' ');
+main.c(655): warning:  #223-D: function "SendNEC" declared implicitly
+                          SendNEC(signals[CURSOR_ROW_INDEX + SCROLL_INDEX]);
+main.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=8108 RO-data=512 RW-data=2540 ZI-data=3412  
+After Build - User command #1: fromelf --bin ".\Objects\Universal_Remote_Control_of_NEC_Protocal.axf" --output ".\Objects\Universal_Remote_Control_of_NEC_Protocal.bin "
+After Build - User command #2: fromelf --text -c ".\Objects\Universal_Remote_Control_of_NEC_Protocal.axf" --output ".\Objects\Universal_Remote_Control_of_NEC_Protocal.txt"
+".\Objects\Universal_Remote_Control_of_NEC_Protocal.axf" - 0 Error(s), 18 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
